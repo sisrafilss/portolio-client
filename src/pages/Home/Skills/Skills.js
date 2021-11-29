@@ -13,7 +13,7 @@ const Skills = () => {
 
             <div style={{ height: "10px" }} className="progress">
               <div
-                class="progress-bar bg-success"
+                class="progress-bar bg-success" 
                 role="progressbar"
                 style={{ width: "90%" }}
                 aria-valuenow="90"
