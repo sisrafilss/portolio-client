@@ -37,6 +37,11 @@ const Header = () => {
                   Contact
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <a className="nav-link btn btn-success text-light" target="_blank" href="https://drive.google.com/file/d/1q9nIN8OyD6fOtI1FaheotXewC59BL3vh/view?usp=sharing">
+                  My Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>

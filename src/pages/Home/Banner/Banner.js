@@ -44,9 +44,9 @@ const Banner = () => {
               </a>
             </div>
             <div className="mt-5">
-                <button className="btn btn-success me-4">
-                    My Resume
-                </button>
+            <a className="btn btn-success text-light me-4" target="_blank" href="https://drive.google.com/file/d/1q9nIN8OyD6fOtI1FaheotXewC59BL3vh/view?usp=sharing">
+                  My Resume
+                </a>
                 <button className="btn btn-success">
                     <Link style={{textDecoration: 'none', color: "#fff"}} to="/contact">Contact</Link>
                 </button>
