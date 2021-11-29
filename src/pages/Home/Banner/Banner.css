@@ -1,0 +1,22 @@
+.israfil {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.icon {
+    font-size: 25px;
+    border-radius: 0 16px;
+    transition: all 1s;
+    width: 42px;
+    border: 2px solid #fff;
+    /* color: #64ffda; */
+    background: hsla(0,0%,100%,0);
+    padding: 10px;
+    box-shadow: 0 0 9px #fff;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #0a192f !important;
+    background: #fff;
+}
