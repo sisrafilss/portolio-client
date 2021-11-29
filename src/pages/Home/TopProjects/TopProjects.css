@@ -1,0 +1,29 @@
+.card {
+    background-color: #0a192f;
+    border: 1px solid #fff !important;
+}
+
+.projects {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: top;
+    transition: ease-in-out 5s;
+}
+
+.project-1 {
+    background-image: url(../../../images/fitpal-bicycle.png);
+}
+
+.project-2 {
+    background-image: url(../../../images/horizon-delivery.png);
+}
+
+.project-3 {
+    background-image: url(../../../images/sundarban-healthcare.png);
+}
+
+.card:hover .projects {
+    background-position: bottom;
+}
+
