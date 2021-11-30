@@ -18,7 +18,7 @@ const TopProjects = () => {
               <div className="d-flex justify-content-between">
                 {" "}
                 <h5 class="card-title text-light ">FitPal Bicycle</h5>
-                <Link to="/projects" className="btn btn-success btn-sm">Detail</Link>
+                <button className="btn btn-success btn-sm">Detail</button>
               </div>
             </div>
           </div>

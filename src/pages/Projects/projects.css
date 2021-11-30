@@ -1,0 +1,16 @@
+.project-card {
+    background-color: #0a192f;
+    border: 1px solid #fff !important;
+}
+ 
+.all-projects {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: top;
+    transition: ease-in-out 5s;
+}
+
+#project:hover .all-projects {
+    background-position: bottom !important;
+}
