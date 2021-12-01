@@ -13,7 +13,7 @@ const Skills = () => {
 
             <div style={{ height: "10px" }} className="progress">
               <div
-                class="progress-bar bg-success" 
+                className="progress-bar bg-success" 
                 role="progressbar"
                 style={{ width: "90%" }}
                 aria-valuenow="90"
@@ -27,7 +27,7 @@ const Skills = () => {
             <p className="lead text-light mb-1">CSS</p>
             <div style={{ height: "10px" }} className="progress">
               <div
-                class="progress-bar bg-success"
+                className="progress-bar bg-success"
                 role="progressbar"
                 style={{ width: "85%" }}
                 aria-valuenow="85"
@@ -41,7 +41,7 @@ const Skills = () => {
             <p className="lead text-light mb-1">Bootstrap</p>
             <div style={{ height: "10px" }} className="progress">
               <div
-                class="progress-bar bg-success"
+                className="progress-bar bg-success"
                 role="progressbar"
                 style={{ width: "90%" }}
                 aria-valuenow="90"
@@ -55,7 +55,7 @@ const Skills = () => {
             <p className="lead text-light mb-1">JavaScript</p>
             <div style={{ height: "10px" }} className="progress">
               <div
-                class="progress-bar bg-success"
+                className="progress-bar bg-success"
                 role="progressbar"
                 style={{ width: "80%" }}
                 aria-valuenow="80"
@@ -68,7 +68,7 @@ const Skills = () => {
             <p className="lead text-light mb-1">C</p>
             <div style={{ height: "10px" }} className="progress">
               <div
-                class="progress-bar bg-success"
+                className="progress-bar bg-success"
                 role="progressbar"
                 style={{ width: "50%" }}
                 aria-valuenow="50"
@@ -85,7 +85,7 @@ const Skills = () => {
 
             <div style={{ height: "10px" }} className="progress">
               <div
-                class="progress-bar bg-success"
+                className="progress-bar bg-success"
                 role="progressbar"
                 style={{ width: "80%" }}
                 aria-valuenow="80"
@@ -99,7 +99,7 @@ const Skills = () => {
             <p className="lead text-light mb-1">Express JS</p>
             <div style={{ height: "10px" }} className="progress">
               <div
-                class="progress-bar bg-success"
+                className="progress-bar bg-success"
                 role="progressbar"
                 style={{ width: "65%" }}
                 aria-valuenow="60"
@@ -113,7 +113,7 @@ const Skills = () => {
             <p className="lead text-light mb-1">Node JS</p>
             <div style={{ height: "10px" }} className="progress">
               <div
-                class="progress-bar bg-success"
+                className="progress-bar bg-success"
                 role="progressbar"
                 style={{ width: "60%" }}
                 aria-valuenow="60"
@@ -127,7 +127,7 @@ const Skills = () => {
             <p className="lead text-light mb-1">MongoDB</p>
             <div style={{ height: "10px" }} className="progress">
               <div
-                class="progress-bar bg-success"
+                className="progress-bar bg-success"
                 role="progressbar"
                 style={{ width: "50%" }}
                 aria-valuenow="50"
@@ -140,7 +140,7 @@ const Skills = () => {
             <p className="lead text-light mb-1">REST API</p>
             <div style={{ height: "10px" }} className="progress">
               <div
-                class="progress-bar bg-success"
+                className="progress-bar bg-success"
                 role="progressbar"
                 style={{ width: "60%" }}
                 aria-valuenow="50"

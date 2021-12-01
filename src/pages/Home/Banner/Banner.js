@@ -34,13 +34,13 @@ const Banner = () => {
             </div>
             <div className="mt-4">
               <a href="https://www.linkedin.com/in/sisrafilss/" target="_blank">
-                <i class="icon me-4 fab text-info fa-linkedin-in"></i>
+                <i className="icon me-4 fab text-info fa-linkedin-in"></i>
               </a>
               <a href="https://github.com/sisrafilss" target="_blank">
-              <i class="icon me-4 fab text-info fa-github"></i>
+              <i className="icon me-4 fab text-info fa-github"></i>
               </a>
               <a href="https://web.facebook.com/sisrafilss" target="_blank">
-              <i class="icon fab text-info fa-facebook-f"></i>
+              <i className="icon fab text-info fa-facebook-f"></i>
               </a>
             </div>
             <div className="mt-5">

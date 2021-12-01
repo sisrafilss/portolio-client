@@ -1,18 +1,12 @@
-import React, { useEffect, useState } from "react";
+import useData from "../../data/fake_data";
+import Project from "../Project/Project";
 import Footer from "../Shared/Footer/Footer";
 import Header from "../Shared/Header/Header";
 import "./projects.css";
-import horizon from "../../images/FitPal_Bicycle/1.fitpal_home.png";
-import Project from "../Project/Project";
 
 const Projects = () => {
-  const [projects, setProjects] = useState([]);
 
-  useEffect(() => {
-    fetch("./fake_data.json")
-      .then((res) => res.json())
-      .then((data) => setProjects(data));
-  }, []);
+  const projects = useData()
 
   return (
     <div>
@@ -22,7 +16,7 @@ const Projects = () => {
       </div>
       <div>
         <div className="container mt-5 text-light">
-          <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div className="row row-cols-1 row-cols-md-3 g-4">
             {
               projects.map(project => <Project key={project.id} project={project} />)
             }
