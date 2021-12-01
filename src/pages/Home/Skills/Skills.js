@@ -64,7 +64,7 @@ const Skills = () => {
               ></div>
             </div>
           </div>
-          <div className="mb-4">
+          <div>
             <p className="lead text-light mb-1">C</p>
             <div style={{ height: "10px" }} className="progress">
               <div
@@ -136,7 +136,7 @@ const Skills = () => {
               ></div>
             </div>
           </div>
-          <div className="mb-4">
+          <div>
             <p className="lead text-light mb-1">REST API</p>
             <div style={{ height: "10px" }} className="progress">
               <div

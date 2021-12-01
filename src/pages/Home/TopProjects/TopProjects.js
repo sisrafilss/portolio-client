@@ -29,12 +29,15 @@ const TopProjects = () => {
                 <div className="d-flex justify-content-between">
                   {" "}
                   <h5 className="card-title text-light "> {project.name} </h5>
-                  <button className="btn btn-success btn-sm">Detail</button>
+                  <Link to={`/projects/${project.id}`} className="btn btn-success btn-sm">Detail</Link>
                 </div>
               </div>
             </div>
           </div>
         ))}
+      </div>
+      <div class="d-grid gap-2 mx-auto mt-5">
+        <Link to="/projects" className="btn btn-lg btn-outline-success">All Projects</Link>
       </div>
     </div>
   );

@@ -19,26 +19,36 @@ const ProjectDetail = () => {
           <div className="col-md-6 col-sm-12">
             <h2 className="text-light display-6">{name}</h2>
             <ul className="mt-4">
-              {
-                  descriptions.map(d => <li className="text-light mb-3" key={d}> {d} </li>)
-              }
+              {descriptions.map((d) => (
+                <li className="text-light mb-3" key={d}>
+                  {" "}
+                  {d}{" "}
+                </li>
+              ))}
             </ul>
           </div>
 
           <div className="col-md-6 col-sm-12">
             <SRLWrapper>
               <div className="row g-4">
-                  <div>
-                      <h2 className="text-white display-6 text-center">Screenshots</h2>
-                      <p className="lead text-center text-light">Click on image to see on full screen</p>
+                <div>
+                  <h2 className="text-white display-6 text-center">
+                    Screenshots
+                  </h2>
+                  <p className="lead text-center text-light">
+                    Click on image to see on full screen
+                  </p>
+                </div>
+                {images.map((img) => (
+                  <div key={img} className="col-md-6 col-sm-12">
+                    <img
+                      className="img-fluid"
+                      src={img}
+                      style={{ cursor: "pointer" }}
+                      alt=""
+                    />
                   </div>
-                {
-                    images.map(img => <div key={img} className="col-md-6 col-sm-12">
-                    <img className="img-fluid" src={img} alt="" />
-                  </div>)
-                }
-
-                
+                ))}
               </div>
             </SRLWrapper>
           </div>
