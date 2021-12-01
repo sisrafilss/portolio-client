@@ -3,13 +3,12 @@ import useData from "../../data/fake_data";
 import Footer from "../Shared/Footer/Footer";
 import Header from "../Shared/Header/Header";
 import { SRLWrapper } from "simple-react-lightbox";
-import fitpal from "../../images/fitpal.png";
 
 const ProjectDetail = () => {
   const { projectId } = useParams();
   const projects = useData();
   const project = projects.find((p) => parseInt(p.id) === parseInt(projectId));
-  const { name, descriptions, images, links } = project;
+  const { name, descriptions, images } = project;
 
   return (
     <div>
