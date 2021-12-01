@@ -1,11 +1,11 @@
 .project-card {
     background-color: #0a192f;
-    border: 1px solid #fff !important;
+    box-shadow: 0 0 10px #fff;
 }
  
 .all-projects {
     width: 100%;
-    height: 300px;
+    height: 200px;
     background-size: cover;
     background-position: top;
     transition: ease-in-out 5s;
@@ -13,4 +13,8 @@
 
 #project:hover .all-projects {
     background-position: bottom !important;
+}
+
+.card-bg {
+    background-color: #262756;
 }

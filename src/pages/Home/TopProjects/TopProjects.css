@@ -1,6 +1,6 @@
 .card {
     background-color: #0a192f;
-    border: 1px solid #fff !important;
+    box-shadow: 0 0 10px #fff;
 }
 
 .projects {
