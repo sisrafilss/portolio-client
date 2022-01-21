@@ -72,6 +72,7 @@ const Contact = () => {
                     class="form-control"
                     placeholder="Your Name"
                     name="name"
+                    required
                   />
                 </div>
                 <div class="mb-3">
@@ -80,6 +81,7 @@ const Contact = () => {
                     class="form-control"
                     placeholder="Your Email Address"
                     name="email"
+                    required
                   />
                 </div>
                 <div class="mb-3">
@@ -88,6 +90,7 @@ const Contact = () => {
                     class="form-control"
                     placeholder="Subject"
                     name="subject"
+                    required
                   />
                 </div>
                 <div class="mb-3">
@@ -96,6 +99,7 @@ const Contact = () => {
                     rows="3"
                     placeholder="Your Message"
                     name="message"
+                    required
                   ></textarea>
                 </div>
                 <input
