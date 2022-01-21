@@ -5,8 +5,7 @@ import Header from "../Shared/Header/Header";
 import "./projects.css";
 
 const Projects = () => {
-
-  const projects = useData()
+  const projects = useData();
 
   return (
     <div>
@@ -17,9 +16,9 @@ const Projects = () => {
       <div>
         <div className="container mt-5 text-light">
           <div className="row row-cols-1 row-cols-md-3 g-4">
-            {
-              projects.map(project => <Project key={project.id} project={project} />)
-            }
+            {projects.map((project) => (
+              <Project key={project.id} project={project} />
+            ))}
           </div>
         </div>
       </div>

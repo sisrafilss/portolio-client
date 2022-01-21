@@ -24,12 +24,20 @@ const TopProjects = () => {
         {TopProjects.map((project) => (
           <div className="col">
             <div className="card">
-              <div className="projects" style={{backgroundImage: `url(${project.fullScreenshot})`}}></div>
+              <div
+                className="projects"
+                style={{ backgroundImage: `url(${project.fullScreenshot})` }}
+              ></div>
               <div className="card-body">
                 <div className="d-flex justify-content-between">
                   {" "}
                   <h5 className="card-title text-light "> {project.name} </h5>
-                  <Link to={`/projects/${project.id}`} className="btn btn-success btn-sm">Detail</Link>
+                  <Link
+                    to={`/projects/${project.id}`}
+                    className="btn btn-success btn-sm"
+                  >
+                    Detail
+                  </Link>
                 </div>
               </div>
             </div>
@@ -37,7 +45,9 @@ const TopProjects = () => {
         ))}
       </div>
       <div class="d-grid gap-2 mx-auto mt-5">
-        <Link to="/projects" className="btn btn-lg btn-outline-success">All Projects</Link>
+        <Link to="/projects" className="btn btn-lg btn-outline-success">
+          All Projects
+        </Link>
       </div>
     </div>
   );

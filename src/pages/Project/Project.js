@@ -2,16 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Project = ({ project }) => {
-    
-    const {id, name, description, images, links} = project;
+  const { id, name, description, images, links } = project;
 
   return (
     <div className="col">
       <div className="card project-card card-bg" id="project">
         <div
-          className="all-projects"
+          
+          className="all-projects projects"
           style={{
-            backgroundImage: `url(${images?.image1})`,
+            backgroundImage: `url(${images[0]})`,
           }}
         ></div>
         <div className="card-body">
@@ -22,6 +22,7 @@ const Project = ({ project }) => {
           <div className="d-flex justify-content-between mt-4">
             <a
               target="_blank"
+              rel="noreferrer"
               href={links?.githubClient}
               className="btn btn-primary"
             >
@@ -40,6 +41,7 @@ const Project = ({ project }) => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href={links?.liveSite}
               className="btn btn-primary"
             >
@@ -57,7 +59,7 @@ const Project = ({ project }) => {
               </svg>
             </a>
             <Link to={`/projects/${id}`} className="btn btn-primary">
-                Detail
+              Detail
             </Link>
           </div>
         </div>
